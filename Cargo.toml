@@ -1,0 +1,15 @@
+[package]
+name = "ufw-manager"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.104"
+dirs = "7.0.0"
+eframe = { version = "0.36.2", default-features = false, features = ["glow", "persistence", "x11", "wayland", "default_fonts"] }
+egui_extras = "0.36.2"
+rfd = "0.17.2"
+russh = { version = "0.64.1", default-features = false, features = ["ring", "rsa", "flate2"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.151"
+tokio = { version = "1.53.2", features = ["rt", "net", "time", "sync", "io-util", "macros"] }
