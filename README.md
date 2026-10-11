@@ -1,4 +1,4 @@
-# rustwall
+# ufw-manager
 
 A centralized UFW (Uncomplicated Firewall) management tool built in Rust. Manage your localhost and remote hosts' UFW firewall rules over SSH through an intuitive GUI—no need to juggle multiple interfaces or terminals.
 
@@ -14,11 +14,11 @@ A centralized UFW (Uncomplicated Firewall) management tool built in Rust. Manage
 
 I wanted a lightweight alternative to large admin tools like Cockpit when I just needed a fast, focused way to manage UFW across multiple systems. There was no tool that fit my use case cleanly: a central control point for localhost and remote hosts without the overhead of bigger web dashboards.
 
-rustwall is designed for that workflow: manage firewall settings centrally and remotely over SSH.
+ufw-manager is designed for that workflow: manage firewall settings centrally and remotely over SSH.
 
 ## Requirements
 
-Before using rustwall, make sure you have:
+Before using ufw-manager, make sure you have:
 
 - Rust installed (for building from source)
 - UFW installed on the machine you want to manage
@@ -32,8 +32,8 @@ Before using rustwall, make sure you have:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/numpyb/rustwall.git
-   cd rustwall
+   git clone https://github.com/numpyb/ufw-manager.git
+   cd ufw-manager
    ```
 
 2. Build the app:
@@ -54,7 +54,7 @@ Visit the GitHub Releases page and download the binary for your platform, then r
 
 ## Quick start
 
-1. Launch rustwall.
+1. Launch ufw-manager.
 2. Add a host entry for either:
    - your local machine
    - a remote system reachable over SSH
